@@ -1,4 +1,14 @@
-# ECommerceFrontAngular
+# E-Commerce Front-End Angular
+Projeto desenvolvido para o bootcamp Santander Fullstack
+Minha proposta é apresentar parte do frontend de uma loja de discos de vinil e artigos vintage, com a opção de mostrar todos os discos e de pesquisá-los por nome, artista ou ano.
+
+## Créditos Externos
+API dos discos criada a partir de uma planilha do Google no site [Sheet-best](https://sheet.best/)
+
+[Heavy metal icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/heavy-metal)
+
+# ReadMe gerado automaticamente pelo Angular
+## ECommerceFrontAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
 
