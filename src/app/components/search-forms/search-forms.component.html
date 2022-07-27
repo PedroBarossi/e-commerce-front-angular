@@ -4,19 +4,21 @@
         <form>
             <div class="form-group">
                 <label for="titulo">Título</label>
-                <input type="text" id="titulo" class="form-control">
+                <input type="text" #titulo id="titulo" class="form-control">
             </div>
-            <loja-filter-button></loja-filter-button>
+            <loja-filter-button (click)="searchByTitle(titulo.value)"></loja-filter-button><button class="btn btn-dark btn-block btn-sm">Filtrar</button>
             <div class="form-group">
-                <label for="banda">Banda</label>
-                <input type="text" id="banda" class="form-control">
+                <label for="artista">Artista</label>
+                <input type="text" #artista id="artista" class="form-control">
             </div>
-            <loja-filter-button></loja-filter-button>
+            <loja-filter-button (click)="searchByArtist(artista.value)"></loja-filter-button>
             <div class="form-group">
-                <label for="ano">Ano</label>
-                <input type="number" id="ano" class="form-control" min="1970" max="2022">
+                <label for="de">Ano: de</label>
+                <input type="number" #de id="de" class="form-control" min="1970" max="2022">
+                <label for="ate">até</label>
+                <input type="number" #ate id="ate" class="form-control" min="1970" max="2022">
             </div>
-            <loja-filter-button></loja-filter-button>
+            <loja-filter-button (click)="searchByYear(+de.value, +ate.value)"></loja-filter-button>
         </form>
     </div>
 </div>

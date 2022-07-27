@@ -12,4 +12,15 @@ export class SearchFormsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  searchByTitle(title: string) {
+    console.log(title);
+  }
+
+  searchByArtist(artist: string) {
+    console.log(artist);
+  }
+
+  searchByYear(min: number, max: number) {
+    console.log(min, "até ", max);
+  }
 }

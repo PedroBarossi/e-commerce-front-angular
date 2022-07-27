@@ -2,7 +2,7 @@
     <div class="col-md-4"*ngFor="let album of albumList">
         <div class="card shadow-sm">
             <div class="card-body">
-                <img [src]=album.urlCapa alt="imagem da capa indisponível">
+                <img [src]=album.urlCapa width="240" height="240" alt="imagem da capa indisponível">
                 <p class="card-text">{{ album.titulo }}</p>
                 <p class="card-text">{{ album.artista }}</p>
                 <p class="card-text">{{ album.ano }}</p>
